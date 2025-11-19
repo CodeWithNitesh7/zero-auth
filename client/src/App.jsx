@@ -39,7 +39,7 @@ export default function App() {
 
     try {
       // **For Practice:** Replace this URL with your actual ZeroAuth Login API endpoint
-      const res = await fetch("https://api.zeroauth.com/v1/login", {
+      const res = await fetch("https://localhost:5000/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
